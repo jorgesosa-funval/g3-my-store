@@ -8,6 +8,7 @@ export function ProductsList({ category }) {
     <div className="w-full p-4 grid cards-grid gap-6 justify-center" id="card_container" role="contenedor de las tarjetas de cada productos">
 
       { data &&
+
         data.products.map((product) => {
           return <ProductsCard
             key={product.id}
@@ -18,6 +19,7 @@ export function ProductsList({ category }) {
             price={product.price}
           />
         })
+        
       }
 
     </div>

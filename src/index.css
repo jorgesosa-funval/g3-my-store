@@ -1,6 +1,6 @@
 @import "tailwindcss";
 
 
-.cards-grid{
+.cards-grid {
     grid-template-columns: repeat(auto-fit, 20rem);
 }
